@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html ng-app ="Myapp">
+<head>
+
+<link rel= "stylesheets" type="text/css" href ="style.css"/>
+
+<title> Malaysia airline </title>
+
+<style>
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    position:relative;
+    overflow: hidden;
+    background-color: #191970;
+	margin-top:20px;
+    
+	}
+
+li {
+    float: right;
+    border-right:1px solid #bbb;
+	}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
+li a:hover:not(.active) {
+    background-color: #111;
+	}
+
+.active {
+    background-color: #4CAF50;
+	}
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    position:relative;
+    overflow: hidden;
+    background-color: #191970;
+	}
+
+.button {
+    background-color: #191970; /* Green */
+    border: 1px solid #bbb;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+	}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+</style>
+
+</head>
+<body ng-controller='function name'>
+		<script src="javascript/angular.js" type='text/javascript'></script>
+		<script src="app.js" type='text/javascript'></script>
+
+<button class="button">SIGN IN </button>
+<button class="button">SIGN UP</button>
+
+<img src="./images/logo.jpg" alt="logo" style="width:304px;height:128px;">
+
+<ul class="nav1">
+  <li><a  href=".ABOUT">ABOUT</a></li>
+  <li><a href=".FLIGHTS">FLIGHTS</a></li>
+  <li><a href=".BOOK">BOOK</a></li>
+  <li ><a class="active" href=".HOME">HOME</a></li> 
+</ul>
+
+<img src="./images/aircraft.jpg" alt="aircraf" style="width:1283px;height:500px;">
+
+<ul class="nav2">
+  <li><a class="1"> © Malaysia Airlines Berhad</a></li>
+  <li><a class="2">Contact us</a></li>
+  <li><a class="3">Privacy policy</a></li>
+  <li><a class="4">Sitemap</a></li> 
+</ul>
+
+<h1></h1>
+<h2 ></h2>
+</body>
+</html>
