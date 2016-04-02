@@ -1,22 +1,21 @@
-form {
-                width:500px;
-                margin:50px ;
-}
-.search {
-                padding:8px 15px;
-                background:rgba(50, 50, 50, 0.2);
-                border:0px solid #dbdbdb;
-}
-.button {
-                position:relative;
-                padding:6px 15px;
-                right:10px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
-}
-.button:hover  {
-                background-color:#fafafa;
-                color:#207cca;
+
+body{
+    height: 100%;
+    width: 100%;
 }
 
+
+.image {
+    height: 600px;
+  text-align: center;
+  background-size: cover;
+  background-image: url(../images/aircraft.jpg)
+}
+.row{
+    background-color: #191970;
+    font-size: 30 px ;
+    color: white;
+    height: 50px;
+    text-align: center;
+
+}
