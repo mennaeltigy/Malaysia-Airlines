@@ -9,7 +9,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-// var app = angular.module('Myapp',[]);
+
+
 
 
 // uncomment after placing your favicon in /public
