@@ -4,12 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs= require('fs');
+var flight= require('./flights.js');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
-// var app = angular.module('Myapp',[]);
+var app = angular.module('store',[]);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,38 +25,26 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
+(function StoreController(){
+	
 
-// error handlers
+  var app =angular.module("",[]);
+  var file = fs.readFileSync('/booking.json','utf8');
+  var booking = JSON.parse(file);
 
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
+  app.controller('StoreController',function(){this.products=gem;
   });
-}
+  
+  var gem={
+  	time:'8hrs';
+  	cabin:'first class';
+  	seat:'A22';
+  	Travellers:'Mrs.Mona';
+  }
+})();
 
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
-});
+
 
 
 module.exports = app;
