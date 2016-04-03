@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flight Search</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+</head>
+
+<body ng-app="myApp">
+    <div class="main" ng-controller="MainController">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well">Departure Date
+                    <div id="datetimepicker4" class="input-append">
+                        <input data-format="yyyy-MM-dd" type="text"></input>
+                        <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">Arrival Date
+                    <div id="datetimepicker3" class="input-append">
+                        <input data-format="yyyy-MM-dd" type="text"></input>
+                        <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">From</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>London</li>
+                        <li>BArcelona</li>
+                        <li>Quala Lampur</li>
+                        <li>Paris</li>
+                        <li>New York</li>
+                        <li role="separator" class="divider"></li>
+                    </ul>
+                </div>
+            </div>
+</body>
+<script src="javascripts/angular.js" type='text/javascript'></script>
+<script src="javascripts/angular-route.js" type='text/javascript'></script>
+<script src="javascripts/angular-animate.js"></script>
+<script src="javascripts/angular-cookies.js"></script>
+<script src="javascripts/angular-resource.js"></script>
+<script src="javascripts/angular-sanitize.js"></script>
+<script src="javascripts/angular-touch.js"></script>
+<script type="text/javascript" src="javascripts/basicApp.js"></script>
+<script type="text/javascript" src="javascripts/Controllers/MainController.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#datetimepicker4').datetimepicker({
+        pickTime: false
+    });
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $('#datetimepicker3').datetimepicker({
+        pickTime: false
+    });
+});
+</script>
+
+</html>
