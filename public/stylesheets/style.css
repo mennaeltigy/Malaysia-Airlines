@@ -11,11 +11,3 @@ body{
   background-size: cover;
   background-image: url(../images/aircraft.jpg)
 }
-.row{
-    background-color: #191970;
-    font-size: 30 px ;
-    color: white;
-    height: 50px;
-    text-align: center;
-
-}
