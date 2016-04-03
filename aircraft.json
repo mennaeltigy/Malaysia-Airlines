@@ -1,0 +1,60 @@
+[{
+"ACnumber": "156",
+"capacity": "250",
+"manufacturedBy": "Boeing",
+"madeOn": "1984",
+},
+{
+"ACnumber": "174",
+"capacity": "200",
+"manufacturedBy": "Boeing",
+"madeOn": "1975",
+},
+{
+"ACnumber": "189",
+"capacity": "300",
+"manufacturedBy": "Boeing",
+"madeOn": "2000",
+},
+{
+"ACnumber": "214",
+"capacity": "220",
+"manufacturedBy": "Canadair",
+"madeOn": "2002",
+},
+{
+"ACnumber": "237",
+"capacity": "180",
+"manufacturedBy": "Canadair",
+"madeOn": "1985",
+},
+{
+"ACnumber": "202",
+"capacity": "150",
+"manufacturedBy": "Canadair",
+"madeOn": "1999",
+},
+{
+"ACnumber": "152",
+"capacity": "190",
+"manufacturedBy": "Microcraft",
+"madeOn": "1995",
+},
+{
+"ACnumber": "133",
+"capacity": "320",
+"manufacturedBy": "Microcraft",
+"madeOn": "1992",
+},
+{
+"ACnumber": "121",
+"capacity": "260",
+"manufacturedBy": "Microcraft",
+"madeOn": "1987",
+},
+{
+"ACnumber": "104",
+"capacity": "230",
+"manufacturedBy": "Microcraft",
+"madeOn": "2005",
+}]
