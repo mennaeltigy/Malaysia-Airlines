@@ -1,0 +1,86 @@
+<div class="main" ng-controller="SController">
+    <h1>Search</h1>
+    <div class="row">
+        <div class="well col-md-4">Departure Date
+            <div id="datetimepicker4" class="input-group date col-md-12" data-provide="datepicker">
+                <input type="date" class="form-control col-md-12">
+            </div>
+        </div>
+        <div class="well col-md-4">Arrival Date
+            <div id="datetimepicker3" class="input-group date col-md-12" data-provide="datepicker">
+                <input type="date" class="form-control col-md-12">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                From <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>Barcelona</li>
+                <li>Paris</li>
+                <li>London</li>
+                <li>New York</li>
+                <li>Quala Lampur</li>
+                <li role="separator" class="divider"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                To<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>Barcelona</li>
+                <li>Paris</li>
+                <li>London</li>
+                <li>New York</li>
+                <li>Quala Lampur</li>
+                <li role="separator" class="divider"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Two way
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> One way
+            </label>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios1" id="optionsRadios3" value="option1" checked> Business
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios1" id="optionsRadios4" value="option2"> Economy
+            </label>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h4>Number Of tickets</h4>
+        <input type="number" class="form-control" placeholder="number of tickets" min="0" max="10">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-4">
+        <button type="button" class="btn btn-primary">Search</button>
+    </div>
+</div>
