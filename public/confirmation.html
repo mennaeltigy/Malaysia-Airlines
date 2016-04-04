@@ -1,0 +1,86 @@
+<div class="jumbotron">
+<div class="confirmation">
+   
+<link rel="stylesheet" type="text/css" href="stylesheets/stylem.css">  
+      
+ <div class= "row">
+
+  <h1> Reservation Summary</h1>
+  <h2>Kindaly note that this page is not your boarding pass.</h2>
+ 
+ </div>
+
+ <div class="table-responsive">          
+  <table class="table table-reflow">
+    <thead>
+      <tr>
+        
+        <th style="width: 10%">FLIGHT</th>
+        <th style="width: 10%">DEPART</th>
+        <th style="width: 10%">ARRIVE</th>
+        <th style="width: 30%"></th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td style="width: 10%">Malaysia airline 1234</td>
+        <td style="width: 10%">Paris March 27,2016 12:00PM</td>
+        <td style="width: 10%">Russia March 27,2016 7:00PM</td>
+        <th style="width: 30%"></th>
+
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+
+
+  <div>
+
+    <div class="row b">  
+
+      <div class="row"><strong>Your trip cost:</strong> <span> $200</span> </div>
+      
+        <div class="row"><strong>Travel date:</strong><span> March 27,2016</span></div>
+        
+        <div class="row"><strong>Cabin class:</strong><span> Economy class</span></div>
+        
+        <div class="row"><strong>Seat:</strong><span> Unassigned</span></div>
+        
+        <div class="row"><strong>Travellers:</strong><span> Mr.Amr</span></div>
+
+    </div> 
+
+ <script>
+ function input(){
+ window.confirm("Your booking is done");
+ }    
+ </script>
+
+
+   <div class="row">
+
+    <div class="btn-group" role="group" aria-label="...">
+         
+      <form name='form1'>
+      <button onclick='input()' type="button" class="btn btn-primary">CONFIRM</button>
+      <button type="button" class="btn btn-primary edit" href="#/booking" ng-click= "redirectTobooking()">EDIT</button>
+      </form>
+
+    </div>
+
+  </div>
+
+</div> 
+</div>
+<script type="text/javascript" src="javascripts/jquery.min.js"></script>
+<script src="javascripts/angular.js" type='text/javascript'></script>
+<script src="javascripts/angular-route.js" type='text/javascript'></script>
+<script src="javascripts/angular-animate.js"></script>
+<script src="javascripts/angular-cookies.js"></script>
+<script src="javascripts/angular-resource.js"></script>
+<script src="javascripts/angular-sanitize.js"></script>
+<script src="javascripts/angular-touch.js"></script>
+</div>

@@ -1,22 +1,29 @@
-form {
-                width:500px;
-                margin:50px ;
+
+
+.jumbotron {
+
+                background-image:url(../images/Cloud.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
 }
-.search {
-                padding:8px 15px;
-                background:rgba(50, 50, 50, 0.2);
-                border:0px solid #dbdbdb;
+body{
+    height: 100%;
+    width: 100%;
 }
-.button {
-                position:relative;
-                padding:6px 15px;
-                right:10px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
+  
+h1{
+  	font-size: 200% ; 
+  	color:   #191970;
+  }
+
+.image {
+  height: 600px;
+  text-align: center;
+  background-size: cover;
+  background-image: url(../images/aircraft.jpg);
 }
-.button:hover  {
-                background-color:#fafafa;
-                color:#207cca;
+
+.add-on {
+	font-size: 24px; 
 }
 
