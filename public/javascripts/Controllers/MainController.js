@@ -1,7 +1,9 @@
 var app = angular.module("myApp")
+
   .controller('MainController' ,function($scope, de) { 
   $scope.data = de.de();
   console.log($scope.data);
+
   // $scope.Flight = [
  $scope.products = [
   	{ 

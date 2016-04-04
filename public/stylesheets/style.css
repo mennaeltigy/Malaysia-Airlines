@@ -1,4 +1,11 @@
 
+
+.jumbotron {
+
+                background-image:url(../images/Cloud.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+}
 body{
     height: 100%;
     width: 100%;
@@ -13,9 +20,10 @@ h1{
   height: 600px;
   text-align: center;
   background-size: cover;
-  background-image: url(../images/aircraft.jpg)
+  background-image: url(../images/aircraft.jpg);
 }
 
 .add-on {
 	font-size: 24px; 
 }
+
