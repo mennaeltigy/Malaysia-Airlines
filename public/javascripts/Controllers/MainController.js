@@ -1,5 +1,7 @@
 var app = angular.module("myApp")
   .controller('MainController', ['$scope', function($scope) { 
+    $scope.data = Data;
+    console.log($scope.data);
   // $scope.Flight = [
  $scope.products = [
   	{ 
