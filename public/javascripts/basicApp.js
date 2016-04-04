@@ -6,8 +6,11 @@ angular.module('myApp', [
       when('/flights', {
         templateUrl: 'outgoing.html',
         controller: 'MainController'
-      });
+      })
       .when('/book', {
         templateUrl: 'book.html'
+              })
+      .when('/confirm', {
+        templateUrl: 'confirmation.html'
               });
   }]);
