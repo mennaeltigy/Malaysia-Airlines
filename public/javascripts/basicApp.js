@@ -18,6 +18,10 @@ angular.module('myApp', [
       .when('/search', {
           templateUrl: 'search.html',
           controller: 'SController'
+      })
+      .when('/confirmation', {
+          templateUrl: 'confirmation.html'     
       });
+      
   }]);
 

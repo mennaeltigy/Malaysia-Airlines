@@ -1,206 +1,33 @@
 
-.nav{
-            position: absolute;
-    top: 620px;
-    right: 0;
-    width: 100%;
-    height: 80px;
-
-}
-form {
-                width:500px;
-                margin:50px ;
-}
-.search {
-                padding:8px 15px;
-                background:rgba(50, 50, 50, 0.2);
-                border:0px solid #dbdbdb;
-}
-.button {
-                position:relative;
-                padding:6px 15px;
-                right:10px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
-}
-.button:hover  {
-                background-color:#fafafa;
-                color:#207cca;
-}
 body{
         font-family: sans-serif;
 }
-
-.malaysia img {
-    max-height: 140px;
-        max-width: 220px;
-        width: 220px;
-        height: 220px;
-        margin-left: 50px;
-}
-.searchbox{ 
-        margin-top: -50px;
-        margin-left: 900px;
-
-}
-li{
-        display: inline;
-        padding-right: 10px; 
-}
-
-ul a {
-        text-decoration: none;
-        color: red;
-}
-
-ul a:hover {
-        text-decoration: underline;
-        color: black;
-}
-
 .mastercard img{
-           max-height: 140px;
-           max-width: 220px;
+       max-height: 140px;
+       max-width: 220px;
        width: 240px;
        height: 100px;
        margin-left: 950px;
        margin-top: 140px; 
 }
-.box {
-    position: absolute;
-    top: 620px;
-    right: 0;
-    width: 100%;
-    height: 80px;
-    background-color: blue;
-
+h1{
+  color: #151B54;
+  font-size: 30px;
+  padding-left:20px; 
+  padding-top: 100px;
 }
-ul b {
-        text-decoration: none;
-        color: white;
-        padding: 10px;
-        margin: 10px;
-
+h2{
+  color:#3090C7;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
 }
 
-ul b:hover {
-        text-decoration: underline;
-        color: black;
-}
-.m {
-        color: white;
-        margin-right: 200px;
-        margin-left: 700px;
-        margin-bottom: 70px;
-        padding-bottom: 50px;
-        top:150px;
-}
-.res{
-        position: relative;
-        color: blue;
-        top: 20px;
-        right: 1px;
-        font-size: 22px;
-}
-.page {
-        position: relative;
-        color: red;
-        top: 50px;
-        right: 260px;
-}
-#tr {
-        position: relative;
-        color: black;
-        top: 240px;
-        right: 700px;
-}
-#cc {
-        position: relative;
-        color: black;
-        top: 260px;
-        right: 810px;
-}
-#st {
-        position: relative;
-        color: black;
-        top: 280px;
-        right: 915px;
-}
-#mr {
-        position: relative;
-        color: black;
-        top: 300px;
-        right: 970px;
-}
-
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 15px;
-}
-table {
-        position: relative;
-        top:70px;
-}
-th {
-        background-color: grey;
-        color: white;
-}
-.booking{
-        position: relative;
-        color: blue;
-        top: 20px;
-        right: 1px;
-        font-size: 22px;
-}
-
-
-.button{
-        margin-bottom: 100px;
-
-        background-color: #191970; /* Green */
-        border: 1px solid #bbb;
-        color: white;
-        padding: 5px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        float: right; 
-
-}
-.button: hover{
-
-        background-color: #3e8e41;
-}
-#button{
-                
-        margin-bottom: 100px;
-        background-color: #191970; /* Green */
-        border: 1px solid #bbb;
-        color: white;
-        padding: 5px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        float: left; 
-}
-#button: hover{
-
-        background-color: #3e8e41;
-}
 .col-md-4 {
 
   height: 80px;
   font-size: 25px;
-   text-align: center;
+  text-align: center;
 }
 .fl{
   background-color: #B6B6B4;
@@ -211,14 +38,38 @@ th {
 .ar{
   background-color:#E5E4E2;
 }
-h1{
-  color:blue;
-  font-size: 30px;
-}
-h2{
-  color:red;
-  font-size: 20px;
-}
+
 .btn-group{
   padding-top:25px;
+  padding-left: 20px
 }
+.b{
+  padding-left: 40px;
+  padding-top: 50px;
+
+}
+.img{
+  padding-left: 900px;
+ 
+}
+
+th{
+    width: 90px;
+}
+
+.confirmation{
+      background: url("../images/aircra.jpg"); 
+      background-size: cover;
+      min-height: 100%
+      min-width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      line-height: 1.8;
+      color: black;
+    }
