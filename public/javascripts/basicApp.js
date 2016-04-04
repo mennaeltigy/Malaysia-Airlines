@@ -12,5 +12,9 @@ angular.module('myApp', [
               })
       .when('/confirm', {
         templateUrl: 'confirmation.html'
-              });
+      })
+      .when('/search', {
+          templateUrl: 'search.html',
+          controller: 'SController'
+      });
   }]);
