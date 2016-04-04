@@ -9,5 +9,10 @@ angular.module('myApp', [
       })
       .when('/book', {
         templateUrl: 'book.html'
+      })
+      .when('/search', {
+          templateUrl: 'search.html',
+          controller: 'SController'
       });
   }]);
+

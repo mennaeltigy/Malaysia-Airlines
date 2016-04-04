@@ -3,16 +3,19 @@ body{
     height: 100%;
     width: 100%;
 }
-
+  
+h1{
+  	font-size: 200% ; 
+  	color:   #191970;
+  }
 
 .image {
-    height: 600px;
+  height: 600px;
   text-align: center;
   background-size: cover;
   background-image: url(../images/aircraft.jpg)
 }
-  
-  h1{
-  	font-size: 200% ; 
-  	color:   #191970;
-  }
+
+.add-on {
+	font-size: 24px; 
+}
