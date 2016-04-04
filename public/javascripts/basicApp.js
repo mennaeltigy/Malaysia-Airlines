@@ -16,5 +16,9 @@ angular.module('myApp', [
       .when('/search', {
           templateUrl: 'search.html',
           controller: 'SController'
+      })
+      .when('/payment', {
+          templateUrl: 'payment.html',
+          controller: 'PaymentController'
       });
   }]);

@@ -13,4 +13,7 @@ $scope.pay=function(){
 console.log($scope.CreditCardsAccepted)
 };
   }
+  $scope.redirectToConfirmation = function () {
+  	$location.path('/confirmation.html');
+  }
   );
