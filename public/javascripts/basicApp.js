@@ -6,8 +6,13 @@ angular.module('myApp', [
       when('/flights', {
         templateUrl: 'outgoing.html',
         controller: 'MainController'
-      });
+      })
       .when('/book', {
         templateUrl: 'book.html'
-              });
+      })
+      .when('/search', {
+          templateUrl: 'search.html',
+          controller: 'SController'
+      });
   }]);
+
