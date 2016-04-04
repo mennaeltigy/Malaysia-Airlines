@@ -1,77 +1,86 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Flight Search</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-</head>
-
-<body ng-app="myApp">
-    <div class="main" ng-controller="MainController">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">Departure Date
-                    <div id="datetimepicker4" class="input-append">
-                        <input data-format="yyyy-MM-dd" type="text"></input>
-                        <span class="add-on">
-      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
-      </i>
-    </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well">Arrival Date
-                    <div id="datetimepicker3" class="input-append">
-                        <input data-format="yyyy-MM-dd" type="text"></input>
-                        <span class="add-on">
-      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
-      </i>
-    </span>
-                    </div>
-                </div>
+<div class="main" ng-controller="SController">
+    <h1>Search</h1>
+    <div class="row">
+        <div class="well col-md-4">Departure Date
+            <div id="datetimepicker4" class="input-group date col-md-12" data-provide="datepicker">
+                <input type="date" class="form-control col-md-12">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-danger">From</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>London</li>
-                        <li>BArcelona</li>
-                        <li>Quala Lampur</li>
-                        <li>Paris</li>
-                        <li>New York</li>
-                        <li role="separator" class="divider"></li>
-                    </ul>
-                </div>
+        <div class="well col-md-4">Arrival Date
+            <div id="datetimepicker3" class="input-group date col-md-12" data-provide="datepicker">
+                <input type="date" class="form-control col-md-12">
             </div>
-</body>
-<script src="javascripts/angular.js" type='text/javascript'></script>
-<script src="javascripts/angular-route.js" type='text/javascript'></script>
-<script src="javascripts/angular-animate.js"></script>
-<script src="javascripts/angular-cookies.js"></script>
-<script src="javascripts/angular-resource.js"></script>
-<script src="javascripts/angular-sanitize.js"></script>
-<script src="javascripts/angular-touch.js"></script>
-<script type="text/javascript" src="javascripts/basicApp.js"></script>
-<script type="text/javascript" src="javascripts/Controllers/MainController.js"></script>
-<script type="text/javascript">
-$(function() {
-    $('#datetimepicker4').datetimepicker({
-        pickTime: false
-    });
-});
-</script>
-<script type="text/javascript">
-$(function() {
-    $('#datetimepicker3').datetimepicker({
-        pickTime: false
-    });
-});
-</script>
-
-</html>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                From <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>Barcelona</li>
+                <li>Paris</li>
+                <li>London</li>
+                <li>New York</li>
+                <li>Quala Lampur</li>
+                <li role="separator" class="divider"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                To<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>Barcelona</li>
+                <li>Paris</li>
+                <li>London</li>
+                <li>New York</li>
+                <li>Quala Lampur</li>
+                <li role="separator" class="divider"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Two way
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> One way
+            </label>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios1" id="optionsRadios3" value="option1" checked> Business
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios1" id="optionsRadios4" value="option2"> Economy
+            </label>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h4>Number Of tickets</h4>
+        <input type="number" class="form-control" placeholder="number of tickets" min="0" max="10">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-4">
+        <button type="button" class="btn btn-primary">Search</button>
+    </div>
+</div>
