@@ -1,7 +1,7 @@
 angular.module('myApp', [
         'ngRoute'
-    ])
-.config(['$routeProvider',
+    ]).config(['$routeProvider',
+
   function($routeProvider) {
     $routeProvider.
       when('/flights', {
@@ -10,8 +10,14 @@ angular.module('myApp', [
       })
       .when('/book', {
         templateUrl: 'book.html'
+
               })
       .when('/submit', {
         templateUrl: 'payment.html'
-              });
+              })
+      .when('/search', {
+          templateUrl: 'search.html',
+          controller: 'SController'
+      });
   }]);
+
