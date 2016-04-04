@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin-bottom: 20px;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.5);
+	z-index: 99;
+	text-align: center;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 50px;
+}
+.sect{
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.subSection{
+	height: 50%;
+	background-color: bisque;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.sectOne{
+	background-image: url("../images/aircraft.jpg");
+}
+
+.sectTwo{
+    background-image: url("../images/aircraft.jpg");
+}
+
+.sectThree{
+	background-image: url("../images/aircraft.jpg");
+
+}
+
+.footerlogo .footer-right a {
+    display: inline-block;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-left-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 3px;
+    background-color: blue;
+    padding-right: 200px;
+}
+a{
+	background-color: transparent;
+	color: red;
+	text-decoration: none;
+}
+.footer-Logo a {
+padding-left: 200px;
+
+}
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+.footerLogo .footer-right {
+    color: #987722;
+    }
+    .footerLogo {
+    text-align: left;
+    font: 16px sans-serif;
+    color: #987722;
+}
+.visit{
+	background-color: white;
+	padding-left: 940px;
+	text-decoration: none;
+}
