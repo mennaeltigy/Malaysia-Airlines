@@ -56,9 +56,9 @@ h2{
 th{
     width: 90px;
 }
-.confirmation{
 
-      background: url("../images/aircraf.jpg") 
+.confirmation{
+      background: url("../images/aircra.jpg"); 
       background-size: cover;
       min-height: 100%
       min-width: 100%;
