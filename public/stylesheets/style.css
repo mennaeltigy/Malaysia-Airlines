@@ -20,7 +20,7 @@ h1{
   height: 600px;
   text-align: center;
   background-size: cover;
-  background-image: url(../images/aircraft.jpg)
+  background-image: url(../images/aircraft.jpg);
 }
 
 .add-on {

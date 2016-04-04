@@ -9,7 +9,7 @@ angular.module('myApp', [
         controller: 'MainController'
       })
       .when('/book', {
-        templateUrl: 'book.html'
+        templateUrl: 'booking.html'
 
               })
       .when('/submit', {
