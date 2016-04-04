@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="jumbotron">
 <div class="confirmation">
    
@@ -84,3 +85,109 @@
 <script src="javascripts/angular-sanitize.js"></script>
 <script src="javascripts/angular-touch.js"></script>
 </div>
+=======
+
+
+<html ng-app="store">
+<head>
+    
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/stylem.css">
+
+    
+  <title>Malaysia airline</title>
+
+</head>
+
+
+<body ng-controller="StoreController">
+<script type="text/javascript" src="/javascripts/angular.min.js"></script>
+<script type="text/javascript" src="./routes/app.js"></script>
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/javascripts/angular-route.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/ui-bootstrap-tpls-1.2.5.min.js"></script>
+<script src="core.js"></script>
+<script src="/controllers/mainCtrl.js"></script>
+<script src="/controllers/flightsCtrl.js"></script>
+<script src="/services/flightsSrv.js"></script>
+
+     
+  <div>
+  
+    <div class= "row">
+
+      <h1> Reservation Summary</h1>
+      <h2>Kindaly note that this page is not your boarding pass.</h2>
+ 
+    </div>
+
+    <div class= "row">
+
+      <div class="col-md-4 fl">FLIGHT</div>
+      <div class="col-md-4 dp">DEPART</div>
+      <div class="col-md-4 ar">ARRIVE</div>
+
+    </div>
+
+    <div class= "row">
+
+      <div class="col-md-4 fl">Malaysia airline 1234</div>
+      <div class="col-md-4 dp">Paris March 27,2016 12:00PM </div>
+      <div class="col-md-4 ar">Russia March 27,2016 7:00PM</div>
+
+    </div> 
+
+  
+    <!-- <div class="row">
+
+     <!-- <img src="./images/mastercard_logo.gif" class="img-thumbnail img" alt="Master card" width="100" height="50">
+       <div class="row"><strong>Your trip cost:</strong><span> $200</span</div>
+        </div>
+
+    </div> -->
+    
+
+    <div>
+
+      <div class="row b"  ng-controller="StoreController as store">  
+
+         <div class="row"><strong>Your trip cost:</strong><span> $200</span</div>
+        </div>
+        <div class="row"   ng-controller="StoreController as store"><strong>Travel date:</strong><span> {{store.product.time}}</span</div>
+        </div>
+        <div class="row"><strong>cabin class:</strong><span> economy class</span</div>
+        </div>
+        <div class="row"><strong>seat</strong><span> unassigned</span</div>
+        </div>
+        <div class="row"><strong>Travellers:</strong><span> Mr.Ahmed</span</div>
+      </div>
+
+    </div> 
+    <script>
+function input(){
+    var text = "Your booking is done." ;
+    document.forms.form1.area.value = text;
+}    
+</script>
+
+
+    <div class="row">
+
+      <div class="btn-group" role="group" aria-label="...">
+         
+        <form name='form1'>
+        <button onclick='input()' type="button" class="btn btn-primary">CONFIRM</button>
+        <button type="button" class="btn btn-primary">CANCEL</button>
+        <textarea name='area'></textarea>
+        </form>
+
+      </div>
+
+    </div>
+
+</div>
+</body>
+</table> 
+>>>>>>> 61aab6c62552870de76db4b67bbc3526ad0f537f
