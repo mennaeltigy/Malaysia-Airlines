@@ -1,0 +1,137 @@
+
+
+<html ng-app="store">
+<head>
+    
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/stylem.css">
+
+    
+  <title>Malaysia airline</title>
+
+</head>
+
+
+<body ng-controller="StoreController">
+<script type="text/javascript" src="/javascripts/angular.min.js"></script>
+<script type="text/javascript" src="./routes/app.js"></script>
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/javascripts/angular-route.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/ui-bootstrap-tpls-1.2.5.min.js"></script>
+<script src="core.js"></script>
+<script src="/controllers/mainCtrl.js"></script>
+<script src="/controllers/flightsCtrl.js"></script>
+<script src="/services/flightsSrv.js"></script>
+
+     
+<div>
+    
+    <style >
+
+    body{
+
+      background: url("./images/aircra.jpg") no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100%
+      min-width: 100%;
+      height: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      line-height: 1.8;
+      color: black;
+    }
+
+    </style>
+    <div class= "row">
+
+      <h1> Reservation Summary</h1>
+      <h2>Kindaly note that this page is not your boarding pass.</h2>
+ 
+    </div>
+
+<!--    <div class= "row">
+
+      <div class="col-md-4 fl">FLIGHT</div>
+      <div class="col-md-4 dp">DEPART</div>
+      <div class="col-md-4 ar">ARRIVE</div>
+
+    </div>
+
+    <div class= "row">
+
+      <div class="col-md-4 fl">Malaysia airline 1234</div>
+      <div class="col-md-4 dp">Paris March 27,2016 12:00PM </div>
+      <div class="col-md-4 ar">Russia March 27,2016 7:00PM</div>
+
+    </div> 
+     -->
+<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        
+        <th>FLIGHT</th>
+        <th>DEPART</th>
+        <th>ARRIVE</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>Malaysia airline 1234</td>
+        <td>Paris March 27,2016 12:00PM </td>
+        <td>Russia March 27,2016 7:00PM</td>
+
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+    <div>
+
+      <div class="row b"  ng-controller="StoreController as store">  
+
+        <div class="row"><strong>Your trip cost:</strong><span> $200</span</div>
+        </div>
+        <div class="row"   ng-controller="StoreController as store"><strong>Travel date:</strong><span> {{store.product.time}}</span</div>
+        </div>
+        <div class="row"><strong>cabin class:</strong><span> economy class</span</div>
+        </div>
+        <div class="row"><strong>seat</strong><span> unassigned</span</div>
+        </div>
+        <div class="row"><strong>Travellers:</strong><span> Mr.Ahmed</span</div>
+      </div>
+
+    </div> 
+
+<script>
+function input(){
+window.confirm("Your booking is done");
+}    
+</script>
+
+
+  <div class="row">
+
+    <div class="btn-group" role="group" aria-label="...">
+         
+      <form name='form1'>
+      <button onclick='input()' type="button" class="btn btn-primary">CONFIRM</button>
+      <button type="button" class="btn btn-primary">CANCEL</button>
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+</body>
+</table> 
