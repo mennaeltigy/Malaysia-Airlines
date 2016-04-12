@@ -1,0 +1,84 @@
+#logo{
+	width: 200px;
+	height: 150px;
+}
+#confirm{
+	color:blue;
+	font-size:250%;
+	text-align:center;
+}
+#correct{
+    width: 150px;
+    height:150px;
+}
+#summary{
+	color:blue;
+	font-size: 140%;
+	margin-bottom: 0px;
+	margin-left: 35px;
+
+}
+#pass{
+	color: red;
+	font-size: 100%;
+	margin-top: 0px;
+	margin-left: 35px;
+}
+#details{
+	width: 50%;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+th{
+	color: white;
+	background-color: grey;
+}
+.info{
+	color: black;
+	font-size: 100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+#button1{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#button2{
+	margin-top: 20px;
+}
+#button3{
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+}
+#button4{
+	float: right;
+    margin-right: 35px;
+    margin-top: 45px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DarkBlue;
+}
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: green;
+}
